@@ -43,8 +43,10 @@ Seed Database
 <code>php artisan db:seed</code>
 
 
-
 <b>Step 5</b>
+Generate App Key
+<code>php artisan key:generate</code>
+<b>Step 6</b>
 Open Xammp and click on start apache server and mysql
 <b>Step 6/b>
 To run the app, run <code>php artisan serve</code>
