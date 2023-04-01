@@ -27,7 +27,7 @@
     </div>
 @endif
 
-<x-dashboard.tables :users="$users" />
+<x-dashboard.table :users="$users" />
 
 
 
