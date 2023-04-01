@@ -28,6 +28,8 @@ Clone this repository by running
 Install Dependencies 
 <code>composer install</code>
 <b>Step 3</b>
+Create a database in Xammp called test_db 
+then 
 Run Migrations 
 <code>php artisan migrate</code>
 <b>Step 4</b>
