@@ -62,7 +62,7 @@ allows an admin to view individual employee info as well as update that employee
 <b>(DELETE)</b> admin/user/{id}/delete --> DELETE request which deletes an individual employee
 
 <h2>Default Login credentials</h2>
-When you go to Login here: localhost:8000/admin/login, 
+When you go to Login here: localhost:8000/, 
 default login credentials are..
 
 Email: admin@admin.com
