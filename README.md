@@ -22,6 +22,8 @@ composer --> to run composer commands
 <h2>How TO Setup</h2>
 <p>
 <b>Step 1</b>
+In Xampp, cd into xampp/htdocs/ 
+then,
 Clone this repository by running
 <code>https://github.com/knached99/backend_coding_challenge.git</code>
 <b>Step 2</b>
