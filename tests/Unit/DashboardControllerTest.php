@@ -33,7 +33,16 @@ class DashboardControllerTest extends TestCase
     public function test_index()
     {   
         $response = $this->actingAs($this->admin)->get(route('admin.dash'));
+        $data = [
+            'id'=>1,
+            'name' => $this->faker->name,
+            'email' => $this->faker->safeEmail,
+            'employee_id' =>$this->faker->regexify('[A-Z]{2}-\d{4}')
+        ];
 
+        UsersModel::create($data);
+        UsersModel::all();
+        $this->assertDatabaseHas('users', $data);
         $response->assertStatus(302);
 
     }
