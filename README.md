@@ -31,20 +31,22 @@ cd into backend_coding_challenge and
 Install Dependencies 
 <code>composer install</code>
 <b>Step 3</b>
-Create a database in Xammp called test_db 
-then 
+Create a database in Xammp called test_db,
+then Copy .env.example over to .env
+<code>cp .env.example .env</code>.
+
+<b>Step 4</b>
 Run Migrations 
 <code>php artisan migrate</code>
 <b>Step 4</b>
 Seed Database 
 <code>php artisan db:seed</code>
 
-<b>Step 4</b>
-Copy .env.example over to .env
-<code>cp .env.example .env</code>
-<b>Step 4</b>
-Open Xammp and click on start apache server and mysql
+
+
 <b>Step 5</b>
+Open Xammp and click on start apache server and mysql
+<b>Step 6/b>
 To run the app, run <code>php artisan serve</code>
 
 To run the tests, run <code>php artisan test</code>
