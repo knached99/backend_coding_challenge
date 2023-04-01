@@ -27,6 +27,7 @@ then,
 Clone this repository by running
 <code>https://github.com/knached99/backend_coding_challenge.git</code>
 <b>Step 2</b>
+cd into backend_coding_challenge and 
 Install Dependencies 
 <code>composer install</code>
 <b>Step 3</b>
